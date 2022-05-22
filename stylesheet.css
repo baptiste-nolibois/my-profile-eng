@@ -1,0 +1,132 @@
+/* Colors and fonts */
+
+/* Bouton de changement de langue */
+  h4 {
+   font-family : Times, sans-serif;
+   font-size : 10px;
+  }
+
+  .div-btn{
+   font-size: 18px;
+   color: darkred;
+  }
+
+  .div-btn h4 {
+   color: darkslategrey;
+   position: absolute;
+   margin-left: 31px;
+   margin-top: 3px;
+   border: 0px;
+   padding: 0px;
+  }
+
+  .div-btn a {
+    position: relative;
+    margin-top: 10px;
+    border: 0px;
+    padding: 0px;
+  }
+
+
+/* Body */
+body {
+  background: lightgrey;
+  color: rgb( 50, 50, 50);
+  font-family: Helvetica;
+  font-color : black;
+  font-size : 16px;
+}
+
+h1, h2 {
+  font-family: Open Sans, sans-serif;
+  font-weight: 600;
+}
+
+h1 {
+  color: darkred;
+  font-size : 32px;
+}
+
+h2 {
+  color:  darkred;
+  font-size : 24px;
+  font-weight: weight;
+}
+
+h3  {
+  font-family: GlacialIndifferenceRegular;
+}
+
+a {
+  transition: color 0.3s ease;
+  text-decoration: none;
+  color: darkred;
+}
+
+a:hover {
+  color: darkgoldenrod;
+}
+
+/* Custom desing with class */
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 700px) {
+  .container {
+    width: 600px;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 400px;
+  }
+}
+
+
+.card-white{
+  background-color: white;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0,0,0,.1);
+  border-radius: 10px;
+  margin: 20px 0px;
+  text-align: center;
+}
+
+.img-circle{
+  border: 2px solid black;
+  border-radius: 50%;
+}
+
+.btn-blue {
+  background-color: darkred;
+  color: white;
+  padding: 15px 20px;
+  border-radius: 4px;
+}
+.btn-blue:hover {
+  background-color: darkgoldenrod;
+  color: white;
+}
+
+.list-inline{
+  list-style: none;
+  padding-left: 0px;
+}
+.list-inline li {
+  display: inline;
+  padding: 10px;
+}
+.list-inline i {
+  font-size: 50px;
+  color: rgb(230,230,230);
+}
+.list-inline i:hover {
+  color: black;
+}
+
+#introduction p {
+  margin-bottom: 40px;
+}
