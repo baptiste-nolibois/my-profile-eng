@@ -77,23 +77,11 @@ a:hover {
   .container {
     width: 600px;
   }
-  .div-btn {
-    font-size: 15px;
-  }
-  .div-btn h4 {
-    margin-left: 27px;
-  }
 }
 
 @media (max-width: 500px) {
   .container {
     width: 400px;
-  }
-  .div-btn {
-    font-size: 15px;
-  }
-  .div-btn h4 {
-    margin-left: 25px;
   }
 }
 
